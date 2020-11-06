@@ -1,0 +1,2072 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.gra.fo/schema/untitled-ekg#"
+     xml:base="http://www.gra.fo/schema/untitled-ekg"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:gf="http://www.gra.fo/schema/untitled-ekg#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/spec/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://www.gra.fo/schema/untitled-ekg">
+        <terms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IA 301 : MSELLEK Loubna,PHUNG Jean-Luc,Nicolas Vigne, Pierre-louis Vanacker</terms:license>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Untitled Document</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_03aa0e0e_0149_4ce9_b190_7aab211df3a8 -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_03aa0e0e_0149_4ce9_b190_7aab211df3a8">
+        <owl:inverseOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_d645ce9b_b8b7_4c93_8a96_6f3d75c9115d"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_24494fb2_b904_4d49_9617_eb0ecbf26657"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:label xml:lang="fr">isExecutiveProducerOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_04f9d523_2308_4521_8e03_608210536f37 -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_04f9d523_2308_4521_8e03_608210536f37">
+        <owl:inverseOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_bab09464_2757_40d0_8e4b_4fc158436bbf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_daf718d8_b9f6_4f20_a042_b7bbc4492ea2"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:label xml:lang="fr">isActorOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_05fff7ca_bf3c_4786_b224_83b9bb70b731 -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_05fff7ca_bf3c_4786_b224_83b9bb70b731">
+        <owl:inverseOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_c3ccd8ba_fb5d_4141_911f_c7645764c68b"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_f8de4f53_8d31_4b6a_a651_b8f231fe8326"/>
+        <rdfs:label xml:lang="fr">hasDirector</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_2e1f9faf_f634_4380_9965_aed0f2537316 -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_2e1f9faf_f634_4380_9965_aed0f2537316">
+        <owl:inverseOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_9cff2ed2_5e03_4a6f_ac71_e98fdd5400ca"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_908a735e_1a9e_49b6_ad20_f4c0861abf7d"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:label xml:lang="fr">isProducerOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_6484e4b9_e2b4_4b93_9ba7_33e20a3f37e0 -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_6484e4b9_e2b4_4b93_9ba7_33e20a3f37e0">
+        <owl:inverseOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#isComposerOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_1443af82_c7d4_44ad_85e9_8eec61e57c8d"/>
+        <rdfs:label xml:lang="fr">hasComposer</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_9cff2ed2_5e03_4a6f_ac71_e98fdd5400ca -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_9cff2ed2_5e03_4a6f_ac71_e98fdd5400ca">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_908a735e_1a9e_49b6_ad20_f4c0861abf7d"/>
+        <rdfs:label xml:lang="fr">hasProducer</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_bab09464_2757_40d0_8e4b_4fc158436bbf -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_bab09464_2757_40d0_8e4b_4fc158436bbf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_daf718d8_b9f6_4f20_a042_b7bbc4492ea2"/>
+        <rdfs:label xml:lang="fr">hasActor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_c3ccd8ba_fb5d_4141_911f_c7645764c68b -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_c3ccd8ba_fb5d_4141_911f_c7645764c68b">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_f8de4f53_8d31_4b6a_a651_b8f231fe8326"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:label xml:lang="fr">isDirectorOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_d645ce9b_b8b7_4c93_8a96_6f3d75c9115d -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_d645ce9b_b8b7_4c93_8a96_6f3d75c9115d">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_24494fb2_b904_4d49_9617_eb0ecbf26657"/>
+        <rdfs:label xml:lang="fr">hasExecutiveProducer</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Producted -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#Producted">
+        <owl:inverseOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#isProductedBy"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Production_ac03f2e8-9b5b-4518-bf59-90eb9c4bd4e0"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#hasAward -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#hasAward">
+        <owl:inverseOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#isAwardOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_6813bcff_4fdb_4cef_b6fa_35d6b9a1e287"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Music"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Studio"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Best_actor"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Best_actress"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Best_director"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Best_movie"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Best_sound_editing"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Best_supporting_actor"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Best_supporting_actress"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#hasCategory -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#hasCategory">
+        <owl:inverseOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#isCategoryOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Category"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#hasCountry -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#hasCountry">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#hasDate -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#hasDate">
+        <owl:inverseOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#isDateOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg#Date"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#hasDescription -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#hasDescription">
+        <owl:inverseOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#isDescriptionOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg#Description"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#hasDistribution -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#hasDistribution">
+        <owl:inverseOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#isDistributionOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Distribution"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#hasDuration_Type -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#hasDuration_Type">
+        <owl:inverseOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#isDuration_TypeOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg#Duration_Type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#hasOriginal_Song -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#hasOriginal_Song">
+        <owl:inverseOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#isOriginal_SongOf"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg#Original_Song"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#hasRating -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#hasRating">
+        <owl:inverseOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#isRatingOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg#Rating"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#hasRole -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#hasRole">
+        <owl:inverseOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#isRoleOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_daf718d8_b9f6_4f20_a042_b7bbc4492ea2"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Role"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#hasType -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#hasType">
+        <owl:inverseOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#isTypeOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Nature"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#hasWriter -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#hasWriter">
+        <owl:inverseOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#isWriterOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_9378976a_1e75_4a38_9044_13bedf977153"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_f8de4f53_8d31_4b6a_a651_b8f231fe8326"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#isAwardOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#isAwardOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Best_actor"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Best_actress"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Best_director"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Best_movie"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Best_sound_editing"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Best_supporting_actor"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Best_supporting_actress"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_6813bcff_4fdb_4cef_b6fa_35d6b9a1e287"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Music"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Studio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#isCategoryOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#isCategoryOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Category"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#isComposerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#isComposerOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_1443af82_c7d4_44ad_85e9_8eec61e57c8d"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#isDateOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#isDateOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#Date"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#isDescriptionOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#isDescriptionOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#Description"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#isDistributionOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#isDistributionOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Distribution"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#isDuration_TypeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#isDuration_TypeOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#Duration_Type"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#isOriginal_SongOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#isOriginal_SongOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#Original_Song"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#isProductedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#isProductedBy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Production_ac03f2e8-9b5b-4518-bf59-90eb9c4bd4e0"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#isRatingOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#isRatingOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#Rating"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#isRoleOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#isRoleOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Role"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_daf718d8_b9f6_4f20_a042_b7bbc4492ea2"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#isTypeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#isTypeOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Nature"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#isWriterOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#isWriterOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_9378976a_1e75_4a38_9044_13bedf977153"/>
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_f8de4f53_8d31_4b6a_a651_b8f231fe8326"/>
+        <rdfs:range rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#hasDuration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#hasDuration">
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#hasNote -->
+
+    <owl:DatatypeProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#hasNote">
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#A_Band_Apart -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#A_Band_Apart">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Production_ac03f2e8-9b5b-4518-bf59-90eb9c4bd4e0"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#Producted"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Allociné -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#Allociné">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Spectators"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Catalog -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#Catalog">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#DomainThing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Date -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#Date">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#Catalog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Description -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#Description">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#Catalog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#DomainThing -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#DomainThing"/>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Duration_Type -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#Duration_Type">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#Feature_Film"/>
+                    <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#Short_Film"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#ValuePartition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Feature_Film -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#Feature_Film">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#Duration_Type"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#isDuration_TypeOf"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds"/>
+                            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#Titanic"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.gra.fo/schema/untitled-ekg#Short_Film"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#FrancoiseDessaigne -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#FrancoiseDessaigne">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Distribution"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#isDistributionOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Titanic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_05fff7ca_bf3c_4786_b224_83b9bb70b731"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_22ade1e7_4921_4653_936b_22e490cf768c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_6484e4b9_e2b4_4b93_9ba7_33e20a3f37e0"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_7c198e71_8d69_44cd_a711_0a96893526bf"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_9cff2ed2_5e03_4a6f_ac71_e98fdd5400ca"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_a297cdd3_f6ac_419b_83de_7bb8deecf3f1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_bab09464_2757_40d0_8e4b_4fc158436bbf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_0857eac1_4f82_40a9_886c_5aa865c672bd"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_bab09464_2757_40d0_8e4b_4fc158436bbf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_09853aa0_3b17_47d7_b4c4_119b1d93c388"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_bab09464_2757_40d0_8e4b_4fc158436bbf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_291e6548_ec6b_4a3e_b5bc_c144cbc53296"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_bab09464_2757_40d0_8e4b_4fc158436bbf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_8976568b_27ef_4b41_bda6_f565ad0d9136"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_bab09464_2757_40d0_8e4b_4fc158436bbf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_e3b0e6c1_5cc3_40a1_82a3_9c1da0c832f8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_d645ce9b_b8b7_4c93_8a96_6f3d75c9115d"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_9b5a9893_3cbd_462c_a4c8_51a5b9e6784d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg/Action"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasDistribution"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#JeanPierreVincent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasOriginal_Song"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds_Original_Song"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasWriter"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_22ade1e7_4921_4653_936b_22e490cf768c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#isProductedBy"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#A_Band_Apart"/>
+                            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#The_Weinstein_Company"/>
+                            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#Universal_Pictures"/>
+                            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#Zehnte_Babelsberg"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasDate"/>
+                <owl:allValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#2009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasDescription"/>
+                <owl:allValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds_Description"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasDuration_Type"/>
+                <owl:allValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Feature_Film"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasType"/>
+                <owl:allValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg/Film"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasCountry"/>
+                <owl:hasValue rdf:resource="http://www.gra.fo/schema/untitled-ekg#USA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasDuration"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">153</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasNote"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.3</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds_Description -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds_Description">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#Description"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#isDescriptionOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Dans la France occupée, Shosanna Dreyfus, une jeune Juive française, assiste à l’exécution de sa famille par le colonel SS Hans Landa. Mais elle parvient à s’échapper et s’enfuit à Paris où elle se construit une nouvelle identité, devenant propriétaire d’un cinéma de quartier.
+
+Pendant ce temps, le lieutenant Aldo Raine recrute un petit groupe de soldats juifs américains pour terroriser les troupes d’occupation allemandes. Très vite connus sous le nom des « Bâtards », s&apos;appliquant à scalper leurs ennemis, Raine et ses hommes sont amenés à faire équipe avec Bridget von Hammersmark, une actrice allemande qui est aussi agent double pour les services secrets britanniques, pour tenter d’assassiner les principaux dirigeants du Troisième Reich, réunis pour la première d’un film de propagande.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds_Original_Song -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds_Original_Song">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#Original_Song"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#isOriginal_SongOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>1.	The Green Leaves of Summer
+2.	The Verdict (Dopo La Condanna)
+3.	White Lightning (Main Title)
+4.	Slaughter
+5.	The Surrender (La resa)
+6.	One Silver Dollar (Un Dollaro Bucato)
+7.	Davon geht die Welt nicht unter
+8.	The Man with the Big Sombrero
+9.	Ich wollt, ich wär ein Huhn
+10.	Main Theme from Dark of the Sun
+11.	Cat People (Putting Out Fire)
+12.	Tiger Tank
+13.	Un amico
+14.	Rabbia e tarantella</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#JeanPierreVincent -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#JeanPierreVincent">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Distribution"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#isDistributionOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#LightstormEntertainment -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#LightstormEntertainment">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Production_ac03f2e8-9b5b-4518-bf59-90eb9c4bd4e0"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#Producted"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Titanic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_0857eac1_4f82_40a9_886c_5aa865c672bd -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_0857eac1_4f82_40a9_886c_5aa865c672bd">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_daf718d8_b9f6_4f20_a042_b7bbc4492ea2"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_04f9d523_2308_4521_8e03_608210536f37"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">Melanie_Laurent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_09853aa0_3b17_47d7_b4c4_119b1d93c388 -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_09853aa0_3b17_47d7_b4c4_119b1d93c388">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_daf718d8_b9f6_4f20_a042_b7bbc4492ea2"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_04f9d523_2308_4521_8e03_608210536f37"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">Brad_Pitt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_1443af82_c7d4_44ad_85e9_8eec61e57c8d -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_1443af82_c7d4_44ad_85e9_8eec61e57c8d">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_6813bcff_4fdb_4cef_b6fa_35d6b9a1e287"/>
+        <rdfs:label xml:lang="fr">Composer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_16c19a73_6ba7_4ed0_970b_09ca1981b588 -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_16c19a73_6ba7_4ed0_970b_09ca1981b588">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_908a735e_1a9e_49b6_ad20_f4c0861abf7d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_2e1f9faf_f634_4380_9965_aed0f2537316"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Titanic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">JonLandau</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_22ade1e7_4921_4653_936b_22e490cf768c -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_22ade1e7_4921_4653_936b_22e490cf768c">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_f8de4f53_8d31_4b6a_a651_b8f231fe8326"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_c3ccd8ba_fb5d_4141_911f_c7645764c68b"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#isWriterOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">QuentinTarantino</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_24494fb2_b904_4d49_9617_eb0ecbf26657 -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_24494fb2_b904_4d49_9617_eb0ecbf26657">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_6813bcff_4fdb_4cef_b6fa_35d6b9a1e287"/>
+        <rdfs:label xml:lang="fr">Executive_Producer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_291e6548_ec6b_4a3e_b5bc_c144cbc53296 -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_291e6548_ec6b_4a3e_b5bc_c144cbc53296">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_daf718d8_b9f6_4f20_a042_b7bbc4492ea2"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_04f9d523_2308_4521_8e03_608210536f37"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">Diane_Kruger</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_3166c3ff_fc74_462a_824c_ae8d010dda8e -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_3166c3ff_fc74_462a_824c_ae8d010dda8e">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_daf718d8_b9f6_4f20_a042_b7bbc4492ea2"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_04f9d523_2308_4521_8e03_608210536f37"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Titanic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">LeonardoDiCaprio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_470e208e_e9c4_4ba8_a6db_e4e988056885 -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_470e208e_e9c4_4ba8_a6db_e4e988056885">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_1443af82_c7d4_44ad_85e9_8eec61e57c8d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasAward"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg/Best_sound_editing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#isComposerOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Titanic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">JamesHorner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_6813bcff_4fdb_4cef_b6fa_35d6b9a1e287 -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_6813bcff_4fdb_4cef_b6fa_35d6b9a1e287">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#Catalog"/>
+        <rdfs:label xml:lang="fr">Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_797c1e54_3e33_4094_950a_df3043e383df -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_797c1e54_3e33_4094_950a_df3043e383df">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_f8de4f53_8d31_4b6a_a651_b8f231fe8326"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_c3ccd8ba_fb5d_4141_911f_c7645764c68b"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Titanic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasAward"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg/Best_director"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">JamesCameron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_7c198e71_8d69_44cd_a711_0a96893526bf -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_7c198e71_8d69_44cd_a711_0a96893526bf">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_1443af82_c7d4_44ad_85e9_8eec61e57c8d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#isComposerOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">Ennio_Moricone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_7f08294a_faa4_4a8f_8e7b_9935a489b835 -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_7f08294a_faa4_4a8f_8e7b_9935a489b835">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_daf718d8_b9f6_4f20_a042_b7bbc4492ea2"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_04f9d523_2308_4521_8e03_608210536f37"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Titanic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">FrancesFischer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_8976568b_27ef_4b41_bda6_f565ad0d9136 -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_8976568b_27ef_4b41_bda6_f565ad0d9136">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_daf718d8_b9f6_4f20_a042_b7bbc4492ea2"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_04f9d523_2308_4521_8e03_608210536f37"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasAward"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg/Best_supporting_actor"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">Christoph_Waltz</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_908a735e_1a9e_49b6_ad20_f4c0861abf7d -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_908a735e_1a9e_49b6_ad20_f4c0861abf7d">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_6813bcff_4fdb_4cef_b6fa_35d6b9a1e287"/>
+        <rdfs:label xml:lang="fr">Producer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_9378976a_1e75_4a38_9044_13bedf977153 -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_9378976a_1e75_4a38_9044_13bedf977153">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_6813bcff_4fdb_4cef_b6fa_35d6b9a1e287"/>
+        <rdfs:label xml:lang="fr">Writer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_9b5a9893_3cbd_462c_a4c8_51a5b9e6784d -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_9b5a9893_3cbd_462c_a4c8_51a5b9e6784d">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_24494fb2_b904_4d49_9617_eb0ecbf26657"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_03aa0e0e_0149_4ce9_b190_7aab211df3a8"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">Charlie_Woebcken</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_a297cdd3_f6ac_419b_83de_7bb8deecf3f1 -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_a297cdd3_f6ac_419b_83de_7bb8deecf3f1">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_908a735e_1a9e_49b6_ad20_f4c0861abf7d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_2e1f9faf_f634_4380_9965_aed0f2537316"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">Lawrence_Bender</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_daf718d8_b9f6_4f20_a042_b7bbc4492ea2 -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_daf718d8_b9f6_4f20_a042_b7bbc4492ea2">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_6813bcff_4fdb_4cef_b6fa_35d6b9a1e287"/>
+        <rdfs:label xml:lang="fr">Actor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_db1b296c_4739_4ae7_a51e_8fa1a1cce711 -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_db1b296c_4739_4ae7_a51e_8fa1a1cce711">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_daf718d8_b9f6_4f20_a042_b7bbc4492ea2"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_04f9d523_2308_4521_8e03_608210536f37"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Titanic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">KateWinslet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_dccf2252_85e5_43e5_8965_36fcc0ecc0d6 -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_dccf2252_85e5_43e5_8965_36fcc0ecc0d6">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_daf718d8_b9f6_4f20_a042_b7bbc4492ea2"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_04f9d523_2308_4521_8e03_608210536f37"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Titanic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">BillyZane</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_e3b0e6c1_5cc3_40a1_82a3_9c1da0c832f8 -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_e3b0e6c1_5cc3_40a1_82a3_9c1da0c832f8">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_daf718d8_b9f6_4f20_a042_b7bbc4492ea2"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_04f9d523_2308_4521_8e03_608210536f37"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">Michael_Fassbender</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_ecd5906f_91f7_446b_984b_c2055e60e67f -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_ecd5906f_91f7_446b_984b_c2055e60e67f">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_9378976a_1e75_4a38_9044_13bedf977153"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#isWriterOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Titanic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">Tom_Tykwer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_ed5b1305_1072_4c86_b420_1676741360b4 -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_ed5b1305_1072_4c86_b420_1676741360b4">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_24494fb2_b904_4d49_9617_eb0ecbf26657"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_03aa0e0e_0149_4ce9_b190_7aab211df3a8"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Titanic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">AIGiddings</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#OWLClass_f8de4f53_8d31_4b6a_a651_b8f231fe8326 -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_f8de4f53_8d31_4b6a_a651_b8f231fe8326">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_6813bcff_4fdb_4cef_b6fa_35d6b9a1e287"/>
+        <rdfs:label xml:lang="fr">Director</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Original_Song -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#Original_Song">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Music"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#ParamountPictures -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#ParamountPictures">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Production_ac03f2e8-9b5b-4518-bf59-90eb9c4bd4e0"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#Producted"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Titanic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Rating -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#Rating">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#TV_14"/>
+                    <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#TV_G"/>
+                    <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#TV_MA"/>
+                    <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#TV_PG"/>
+                    <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#TV_Y"/>
+                    <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#TV_Y7"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#ValuePartition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Rotten_Tomatoes -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#Rotten_Tomatoes">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Spectators"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Short_Film -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#Short_Film">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#Duration_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#TV_14 -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#TV_14">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#Rating"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#isRatingOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Titanic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#TV_G -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#TV_G">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#Rating"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#TV_MA -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#TV_MA">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#Rating"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#isRatingOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#TV_PG -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#TV_PG">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#Rating"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#TV_Show -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#TV_Show">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Nature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#TV_Y -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#TV_Y">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#Rating"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#TV_Y7 -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#TV_Y7">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#Rating"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#The_Weinstein_Company -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#The_Weinstein_Company">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Production_ac03f2e8-9b5b-4518-bf59-90eb9c4bd4e0"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#Producted"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Titanic -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#Titanic">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_05fff7ca_bf3c_4786_b224_83b9bb70b731"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_797c1e54_3e33_4094_950a_df3043e383df"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_6484e4b9_e2b4_4b93_9ba7_33e20a3f37e0"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_470e208e_e9c4_4ba8_a6db_e4e988056885"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_9cff2ed2_5e03_4a6f_ac71_e98fdd5400ca"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_16c19a73_6ba7_4ed0_970b_09ca1981b588"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_bab09464_2757_40d0_8e4b_4fc158436bbf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_bab09464_2757_40d0_8e4b_4fc158436bbf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_3166c3ff_fc74_462a_824c_ae8d010dda8e"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_bab09464_2757_40d0_8e4b_4fc158436bbf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_7f08294a_faa4_4a8f_8e7b_9935a489b835"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_bab09464_2757_40d0_8e4b_4fc158436bbf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_db1b296c_4739_4ae7_a51e_8fa1a1cce711"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_bab09464_2757_40d0_8e4b_4fc158436bbf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_dccf2252_85e5_43e5_8965_36fcc0ecc0d6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLObjectProperty_d645ce9b_b8b7_4c93_8a96_6f3d75c9115d"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#OWLClass_ed5b1305_1072_4c86_b420_1676741360b4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasAward"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg/Best_movie"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg/Drama"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasDate"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#1997"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#TitanicDescription"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasDistribution"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#FrancoiseDessaigne"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasDuration_Type"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Feature_Film"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasOriginal_Song"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#TitanicOriginalSong"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasRating"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#TV_14"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasType"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg/Film"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasWriter"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_797c1e54_3e33_4094_950a_df3043e383df"/>
+                            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#OWLClass_ecd5906f_91f7_446b_984b_c2055e60e67f"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#isProductedBy"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#LightstormEntertainment"/>
+                            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#ParamountPictures"/>
+                            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#thCenturyFox"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasCountry"/>
+                <owl:hasValue rdf:resource="http://www.gra.fo/schema/untitled-ekg#USA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasDuration"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">310</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#hasNote"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.3</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#TitanicDescription -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#TitanicDescription">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#Description"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#isDescriptionOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Titanic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>En 1997, l&apos;épave du Titanic est l&apos;objet d&apos;une exploration fiévreuse, menée par des chercheurs de trésor en quête d&apos;un diamant bleu qui se trouvait à bord. Frappée par un reportage télévisé, l&apos;une des rescapés du naufrage, âgée de 102 ans, Rose DeWitt, se rend sur place et évoque ses souvenirs. 1912. Fiancée à un industriel arrogant, Rose croise sur le bateau un artiste sans le sou.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#TitanicOriginalSong -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#TitanicOriginalSong">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#Original_Song"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#isOriginal_SongOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Titanic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>1. 	Never an Absolution		
+2. 	Distant Memories		
+3. 	Southampton		
+4. 	Rose		
+5. 	Leaving Port		
+6. 	&quot;Take Her to Sea, Mr. Murdoch&quot;		
+7. 	&quot;Hard to Starboard&quot;		
+8. 	Unable to Stay, Unwilling to Leave		
+9. 	The Sinking		
+10. 	Death of Titanic		
+11. 	A Promise Kept		
+12. 	A Life So Changed		
+13. 	An Ocean of Memories		
+14. 	My Heart Will Go On
+15. 	Hymn to the Sea</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Universal_Pictures -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#Universal_Pictures">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Production_ac03f2e8-9b5b-4518-bf59-90eb9c4bd4e0"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#Producted"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#ValuePartition -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#ValuePartition"/>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Zehnte_Babelsberg -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#Zehnte_Babelsberg">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Production_ac03f2e8-9b5b-4518-bf59-90eb9c4bd4e0"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#Producted"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#thCenturyFox -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#thCenturyFox">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Production_ac03f2e8-9b5b-4518-bf59-90eb9c4bd4e0"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#Producted"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Titanic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#1997 -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#1997">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#Date"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#isDateOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Titanic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#2009 -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#2009">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#Date"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#isDateOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Action -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Action">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Category"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#isCategoryOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Action</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Awards -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Awards">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#Catalog"/>
+        <rdfs:label>Awards</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Best_actor -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Best_actor">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Awards"/>
+        <rdfs:label>Best_Actor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Best_actress -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Best_actress">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Awards"/>
+        <rdfs:label>Best_Actress</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Best_director -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Best_director">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Awards"/>
+        <rdfs:label>Best_Director</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Best_movie -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Best_movie">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Awards"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#isAwardOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Titanic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Best_Movie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Best_sound_editing -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Best_sound_editing">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Awards"/>
+        <rdfs:label>Best_Sound_Editing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Best_supporting_actor -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Best_supporting_actor">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Awards"/>
+        <rdfs:label>Best_Supporting_Actor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Best_supporting_actress -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Best_supporting_actress">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Awards"/>
+        <rdfs:label>Best_Supporting_Actress</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Category -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Category">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#Catalog"/>
+        <rdfs:label>Category</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Country -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Country">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#DomainThing"/>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#England"/>
+                            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#France"/>
+                            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#Germany"/>
+                            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#Italy"/>
+                            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#Spain"/>
+                            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#USA"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label>Country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Critics -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Critics">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#Catalog"/>
+        <rdfs:label>Critics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Distribution -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Distribution">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Studio"/>
+        <rdfs:label>Distribution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Documentary -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Documentary">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Nature"/>
+        <rdfs:label>Documentary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Drama -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Drama">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Category"/>
+        <rdfs:label>Drama</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Film -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Film">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Nature"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#isTypeOf"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#Inglorious_Basterds"/>
+                            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#Titanic"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Film</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Horror -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Horror">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Category"/>
+        <rdfs:label>Horror</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/LeadingRole -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/LeadingRole">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Role"/>
+        <owl:disjointWith rdf:resource="http://www.gra.fo/schema/untitled-ekg/Supporting_role"/>
+        <rdfs:label>Leading_Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9 -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Movie_acc2c751-f954-4e51-8958-254a241c82c9">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#Catalog"/>
+        <rdfs:label>Movie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Music -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Music">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#Catalog"/>
+        <rdfs:label>Music</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Nature -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Nature">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#TV_Show"/>
+                    <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg/Documentary"/>
+                    <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg/Film"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#ValuePartition"/>
+        <rdfs:label>Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Newspaper -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Newspaper">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Critics"/>
+        <rdfs:label>NewsPaper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Newspaper2 -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Newspaper2">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Newspaper"/>
+        <rdfs:label>Le_Monde</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Production_ac03f2e8-9b5b-4518-bf59-90eb9c4bd4e0 -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Production_ac03f2e8-9b5b-4518-bf59-90eb9c4bd4e0">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Studio"/>
+        <rdfs:label>Production</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Role -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Role">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg/LeadingRole"/>
+                    <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg/Supporting_role"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#ValuePartition"/>
+        <rdfs:label>Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Rolling_Stone -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Rolling_Stone">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Newspaper"/>
+        <rdfs:label>Rolling_Stone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Sci-fi -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Sci-fi">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Category"/>
+        <rdfs:label>Sci-Fi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Spectators -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Spectators">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Critics"/>
+        <rdfs:label>Spectators</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Studio -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Studio">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg#Catalog"/>
+        <rdfs:label>Studio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/Supporting_role -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/Supporting_role">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Role"/>
+        <rdfs:label>Supporting_Role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg/20_Minutes -->
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg/20_Minutes">
+        <rdfs:subClassOf rdf:resource="http://www.gra.fo/schema/untitled-ekg/Newspaper"/>
+        <rdfs:label>20_Minutes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#England -->
+
+    <owl:NamedIndividual rdf:about="http://www.gra.fo/schema/untitled-ekg#England">
+        <rdf:type rdf:resource="http://www.gra.fo/schema/untitled-ekg/Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#France -->
+
+    <owl:NamedIndividual rdf:about="http://www.gra.fo/schema/untitled-ekg#France">
+        <rdf:type rdf:resource="http://www.gra.fo/schema/untitled-ekg/Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Germany -->
+
+    <owl:NamedIndividual rdf:about="http://www.gra.fo/schema/untitled-ekg#Germany">
+        <rdf:type rdf:resource="http://www.gra.fo/schema/untitled-ekg/Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Italy -->
+
+    <owl:NamedIndividual rdf:about="http://www.gra.fo/schema/untitled-ekg#Italy">
+        <rdf:type rdf:resource="http://www.gra.fo/schema/untitled-ekg/Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Spain -->
+
+    <owl:NamedIndividual rdf:about="http://www.gra.fo/schema/untitled-ekg#Spain">
+        <rdf:type rdf:resource="http://www.gra.fo/schema/untitled-ekg/Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#USA -->
+
+    <owl:NamedIndividual rdf:about="http://www.gra.fo/schema/untitled-ekg#USA">
+        <rdf:type rdf:resource="http://www.gra.fo/schema/untitled-ekg/Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#TV_14"/>
+            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#TV_G"/>
+            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#TV_MA"/>
+            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#TV_PG"/>
+            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#TV_Y"/>
+            <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg#TV_Y7"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
